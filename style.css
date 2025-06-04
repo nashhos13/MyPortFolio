@@ -1,3 +1,28 @@
-html {
-    background-color: aqua;
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ffffff, #1c91ff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.the-Igloo {
+    font-weight: bold;
+}
+
+.icon-square {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+   
 }
