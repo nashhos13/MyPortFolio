@@ -23,6 +23,110 @@
 .icon-square {
     width: 50px;
     height: 50px;
-    border-radius: 20%;
-   
+    border-radius: 20%;   
+}
+
+#about-me {
+  background-color: rgb(191, 201, 207);
+}
+
+.container {
+  margin: 0;
+}
+
+.education, .work, .skills {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.education {
+  background-color: #e1f8ff;
+  border-top: solid rgb(226, 226, 226) 5px;
+  border-right: solid rgb(226, 226, 226) 5px;
+}
+
+.skills {
+  background-color: #05192c;
+  border-top: solid rgb(226, 226, 226) 5px;
+  border-left: solid rgb(226, 226, 226) 5px;
+}
+
+.school {
+  font-size: 25px;
+}
+
+.work {
+  background-color: rgb(191, 201, 207);
+ border-top: solid rgb(226, 226, 226) 5px;
+}
+
+.carousel {
+  padding-top: 20px;
+}
+
+.carousel-item img {
+  height: 900px;
+  object-fit: cover;
+}
+
+h1, p {
+  text-align: center;
+  margin: 0 20%;
+}
+
+h1 {
+  padding-top: 30px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
